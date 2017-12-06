@@ -44,9 +44,9 @@ class Solution(object):
         else:
             return mergedArr[l]
 
-sol=Solution()
-arr1 = [1,2,4]
-arr2 = [4,5,5]
+sol = Solution()
+arr1 = [1,2,3]
+arr2 = [3,4,5]
 print(sol.findMedianSortedArrays(arr1,arr2))
 
 
